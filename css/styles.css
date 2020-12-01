@@ -280,7 +280,7 @@ img {  display: block;}
                         /*End Directions */
                         /* Start team */
 .team{
-  background-color:#F5F4FA;
+  background-color: #F5F4FA;
 }
 
 .team .container{
@@ -300,7 +300,12 @@ img {  display: block;}
   /* outline: 1px solid black; */
 
 }
-.team-item {
+.team-item{
+  /* border: 1px solid #757575; */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 4px;
+}
+.team-name {
   margin-top: 30px;
 
   font-weight: 500;
@@ -331,9 +336,24 @@ img {  display: block;}
   background-color: #2F303A;
 }
 .footer .container{/* outline: 1px solid black; */}
+
 .footer-logo{
   /* outline: 1px solid blue; */
   padding-top: 60px;
+}
+/*
+  .footer-logo .logo1st,
+  .footer-logo .logo2nd{
+  outline: 1px solid white;
+} 
+*/
+.footer .logo1st,
+.footer .logo2nd{
+/* outline: 1px solid black; */
+}
+.header .logo1st,
+.header .logo2nd{
+/* outline: 1px solid black; */
 }
 .footer address{
   /* outline: 1px solid white;
@@ -387,6 +407,9 @@ img {  display: block;}
 }
 .portfolio-item{
   width: 370px;
+  /* border: 2px solid #757575; */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 4px;
   /* background-color: tomato; */
   /* margin-right: 30px; */
   /* margin-bottom: 30px; */
@@ -410,4 +433,8 @@ img {  display: block;}
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.discription{
+  /* outline:1px solid black; */
+  padding: 20px 24px;
 }
