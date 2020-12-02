@@ -113,7 +113,7 @@ img {  display: block;}
   margin-left: 
   32px;
 }*/
-.phone {
+.header .phone {
   margin-left: 50px;
 }
 .header address {
@@ -124,7 +124,9 @@ img {  display: block;}
 .email:hover,
 .email:focus,
 .phone:hover,
-.phone:focus {
+.phone:focus,
+.map-address:hover,
+.map-address:focus {
   color: var(--accent-color);
 }
 .button:hover,
@@ -302,7 +304,11 @@ img {  display: block;}
 }
 .team-item{
   /* border: 1px solid #757575; */
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  /* 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+
+
+
   border-radius: 4px;
 }
 .team-name {
@@ -341,12 +347,7 @@ img {  display: block;}
   /* outline: 1px solid blue; */
   padding-top: 60px;
 }
-/*
-  .footer-logo .logo1st,
-  .footer-logo .logo2nd{
-  outline: 1px solid white;
-} 
-*/
+
 .footer .logo1st,
 .footer .logo2nd{
 /* outline: 1px solid black; */
@@ -368,10 +369,14 @@ img {  display: block;}
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background-color: #2f303a;   /*убрать при появлениии фона*/
+  /* background-color: #4e5280;    */
+  /*убрать при появлениии фона*/
 }
-.footer-coordinates {
-  /* outline: 1px solid white; */
+/* .footer address{
+  display:inline;
+} */
+ .footer-coordinates {
+  outline: 1px solid white; 
   margin-top: 9px;
 
   font-weight: normal;
@@ -379,15 +384,34 @@ img {  display: block;}
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;  /* убрать при появлениии фона */
+  /* background-color: #2f303a;   */
+  /* убрать при появлениии фона */
 }
 .footer .logo2nd{
   color: #ffffff
+}
+/* .footer a{  
+  outline: 1px solid tomato;
+  } */
+/* .map-address{
+  display: block;
+} */
+/* .footer .email,
+.footer .phone{
+  display: block;
+  margin-top: 9px;
+} */
+.address-item .email,
+.address-item .phone{
+  display: block;
+  /* outline: 1px solid tomato; */
+  margin-top: 9px;
 }
                       /* End footer */
 /*---------------------для Потрфолио---------------*/
 .portfolio-hero .container{
   margin-top: 95px;
+  margin-bottom: 95px;
 }
 .filter-buttons{
   display: flex;
@@ -410,8 +434,9 @@ img {  display: block;}
 }
 .portfolio-item{
   width: 370px;
+  border: 1px solid 238,238,238,1;
   /* border: 2px solid #757575; */
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
   border-radius: 4px;
   /* background-color: tomato; */
   /* margin-right: 30px; */
